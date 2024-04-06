@@ -1,13 +1,13 @@
 variable "aws_access_key" {
   description = "AWS access key"
   type        = string
-  default     = ""
+  default     = "AKIA5YFJXCE6UYQDJK44"
 }
 
 variable "aws_secret_key" {
   description = "AWS secret key"
   type        = string
-  default     = ""
+  default     = "j/ltKOJEhNNAAuvOdT/yv/II8de/5q7dilvfCMbr"
 }
 
 variable "aws_region" {
@@ -17,10 +17,11 @@ variable "aws_region" {
 }
 
 
+
 variable "ami" {
    type        = string
    description = "Ubuntu AMI ID"
-   default     = "ami-0f5ee92e2d63afc18"
+   default     = "ami-007020fd9c84e18c7"
 }
 
 variable "instance_type" {
@@ -32,5 +33,5 @@ variable "instance_type" {
 variable "name_tag" {
    type        = string
    description = "Name of the EC2 instance"
-   default     = "My EC2 Instance"
+   default     = "demo"
 }
